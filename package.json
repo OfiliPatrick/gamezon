@@ -1,0 +1,35 @@
+{
+  "name": "gamezon",
+  "version": "1.0.0",
+  "description": "This is a game store",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Patrick",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.3",
+    "cookie-parser": "^1.4.4",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-session": "^1.16.1",
+    "faker": "^4.1.0",
+    "knex": "^0.16.5",
+    "mongodb": "^3.2.3",
+    "mongoosastic": "^4.4.1",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "stripe": "^6.31.2"
+  }
+}
